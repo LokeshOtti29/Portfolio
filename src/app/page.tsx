@@ -1,10 +1,15 @@
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <header><Navbar/></header>
-      <main></main>
+    <div className="flex flex-col gap-6 m-4">
+      <header>
+        <Navbar />
+      </header>
+      <main className="flex justify-center">
+        <About />
+      </main>
       <footer></footer>
     </div>
   );
