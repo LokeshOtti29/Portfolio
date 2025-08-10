@@ -4,7 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center gap-10 px-4 py-10">
+    <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-end gap-10 px-4 py-10 ">
       <div className="text-center md:text-left pt-6">
         <h1 className="text-2xl md:text-3xl">
           Hi, I'm{" "}

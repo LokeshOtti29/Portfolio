@@ -13,8 +13,8 @@ export default function Home() {
       <header>
        <Navbar/>
       </header>
-      <main className="container flex flex-col justify-center gap-6 ">
-        <section ><Hero/></section>
+      <main className="flex flex-col justify-center gap-6 m-auto w-[55%] ">
+        <section><Hero/></section>
         <section><About/></section>
         <section><Skills/></section>
         <section><Experience/></section>
