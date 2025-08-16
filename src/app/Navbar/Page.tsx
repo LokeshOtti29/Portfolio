@@ -6,7 +6,6 @@ const Navbar = () => {
     <>
       <div className="flex justify-between items-center px-6 py-4">
         <div className="text-lg font-bold text-gray-800">@Lokesh_Otti</div>
-
         <div className="flex gap-6 text-gray-600">
           <a
             href="https://github.com/LokeshOtti29"
@@ -31,7 +30,6 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-
       <div className="h-[1px] bg-gray-200"></div>
     </>
   );
